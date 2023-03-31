@@ -1,4 +1,4 @@
-FROM openjdk:8u332-jre-slim-buster
+FROM eclipse-temurin:8-jre
 
 ARG kafka_version=1.1.0
 ARG scala_version=2.12
